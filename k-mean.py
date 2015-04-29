@@ -1,7 +1,7 @@
 # K-mean clustering
 from math import sqrt
 
-#Pre-processing of data
+#Pre-processing of data.
 def prepro(filename):
 	lines = [line for line in file(filename)]
 	attributes = lines[0].strip().split('\t')[1:]
